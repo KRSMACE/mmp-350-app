@@ -1,4 +1,4 @@
-/*body{
+body{
 	
 }
 
@@ -7,7 +7,7 @@
 	grid-template-columns: repeat(12, 1fr);
 	grid-template-rows: 140px max-content max-content ;
     column-gap: 1em;
-    row-gap: 0.5em;
+    row-gap : 0.5em;
     max-width: 960px;
     margin: 0 auto;
     
@@ -16,13 +16,13 @@
 #header {
 	grid-column: 1 / span 12;
 	grid-row: 1;
-    background-color: antiquewhite;
+    background-color: dodgerblue;
 }
 
 #main {
 	grid-column: 1 / span 5;
 	grid-row: 2;
-    background-color:burlywood;
+    background-color:mediumpurple;
 }
 
 #sidebar{
@@ -34,43 +34,10 @@
 #footer {
 	grid-column: 1 / span 5;
 	grid-row: 3;
-    background-color:darkgrey  ;
+    background-color: aqua;
 }
 
 */
-
-body{
-	
-}
-
-#container{
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-}
-
-#header{
-   background-color: pink;
-    grid-column-start: 1;
-	grid-column-end: 6;
-}
-
-#main{
-    background-color: orange;
-    grid-column-start: 7;
-    grid-column-end: 8;
-}
-
-#sidebar{
-    background-color: greenyellow;
-    grid-column: 9/11;
-}
-
-#footer{
-    background-color: brown;
-    grid-column: 11/12;
-}
-
-
 
 
 /*mobile*/
